@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/review_posting_portal
+    username: root
+    password: 'Sanket@71'  # Enclose password in quotes if it contains special characters
+  jpa:
+    show-sql: true
+    format-sql: true
+    hibernate:
+      ddl-auto: update
+  application:
+    name: ReviewPostingService
